@@ -1,11 +1,11 @@
 {
-    "name": "constantable/laravel-scout-sphinx",
+    "name": "esvills/laravel-scout-sphinx",
     "description": "Laravel Scout Sphinx Driver",
     "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0",
-        "laravel/scout": "^5.0|^6.0|^7.0",
+        "laravel/scout": "^5.0|^6.0|^7.0|^8.0",
         "foolz/sphinxql-query-builder": "^2.0"
     },
     "require-dev": {
@@ -15,18 +15,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Constantable\\SphinxScout\\ServiceProvider"
+                "Esvills\\SphinxScout\\ServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Constantable\\SphinxScout\\": "src/"
+            "Esvills\\SphinxScout\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Constantable\\SphinxScout\\Tests\\": "tests/"
+            "Esvills\\SphinxScout\\Tests\\": "tests/"
         }
     }
 }

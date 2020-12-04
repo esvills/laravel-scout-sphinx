@@ -1,6 +1,6 @@
 <?php
 
-namespace Constantable\SphinxScout;
+namespace Esvills\SphinxScout;
 
 use Foolz\SphinxQL\Helper;
 use Foolz\SphinxQL\SphinxQL;
@@ -161,7 +161,7 @@ class SphinxEngine extends AbstractEngine
                 $totalCount = $value["Value"];
             }
         }
-        
+
         return $totalCount;
     }
 

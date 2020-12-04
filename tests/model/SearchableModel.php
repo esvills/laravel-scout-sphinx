@@ -1,6 +1,7 @@
+
 <?php
 
-namespace Constantable\SphinxScout\Tests\model;
+namespace Esvils\SphinxScout\Tests\model;
 
 use Illuminate\Database\Eloquent\Model;
 use Laravel\Scout\Searchable;
